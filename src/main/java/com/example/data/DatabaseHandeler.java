@@ -41,6 +41,9 @@ public class DatabaseHandeler extends SQLiteOpenHelper {
 
     }
 
+
+
+
   public void addContact(Contact contact) {
       SQLiteDatabase db = this.getWritableDatabase();
 
